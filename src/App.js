@@ -1,7 +1,10 @@
+import Portfolio from "./components/pages/PortfolioContainer";
 
 
 function App() {
-  return;
+  return (
+   <Portfolio />
+  );
 }
 
 export default App;
