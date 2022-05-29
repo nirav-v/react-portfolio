@@ -1,9 +1,11 @@
-import Portfolio from "./components/pages/PortfolioContainer";
+import React from "react";
+import Main from "./components/Main";
+// import Portfolio from "./components/pages/PortfolioContainer";
 
 
 function App() {
   return (
-   <Portfolio />
+   <Main />
   );
 }
 

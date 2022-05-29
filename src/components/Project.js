@@ -10,7 +10,7 @@ function Project({ title, image, link, description }) {
   return (
     <div className="card" style={styles.card}>
         <img src = {image}
-        class="card-img-top" alt="pets"/>
+        className="card-img-top" alt="pets"/>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>

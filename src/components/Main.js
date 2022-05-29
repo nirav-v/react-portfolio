@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import AboutMe from './pages/AboutMe'
 import Portfolio from './pages/PortfolioContainer';
 import Contact from './pages/Contact';
@@ -22,15 +23,17 @@ const [currentPage, setCurrentPage] = useState('About Me');
       case 'Resume':
         return <Resume />;
       default:
-        return <AboutMe />;
+        return <Portfolio />;
     }
   };
 
   // have a function that switches the current page state variable based on the page name it is passed
-    const handlePageChange = (page) => setCurrentPage(page);
+    const switchPage = (page) => setCurrentPage(page);
+
     return ( 
         <div>
-            <NavBar />
+          
+            <NavBar handlePageChange={switchPage}/>
            {renderPage()}
         </div>
      );

@@ -1,21 +1,28 @@
-function NavBar() {
+function NavBar({ handlePageChange}) {
   return (
-    <nav class="nav nav-pills flex-column flex-sm-row">
+    <nav className="nav nav-pills flex-column flex-sm-row">
       <a
-        class="flex-sm-fill text-sm-center nav-link active"
+        className="flex-sm-fill text-sm-center nav-link active"
         aria-current="page"
         href="#about-me"
+        onClick={() => {handlePageChange('About Me')}}
       >
         About Me
       </a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="#portfolio">
+      <a className="flex-sm-fill text-sm-center nav-link" href="#portfolio" 
+      onClick={() => {handlePageChange('Portfolio')}}
+      >
         Portfolio
       </a>
-      <a class="flex-sm-fill text-sm-center nav-link" href="#contact">
+      <a className="flex-sm-fill text-sm-center nav-link" href="#contact"
+      onClick={() => {handlePageChange('Contact')}}
+      >
         Contact
       </a>
 
-      <a class="flex-sm-fill text-sm-center nav-link" href="#resume">
+      <a className="flex-sm-fill text-sm-center nav-link" href="#resume"
+      onClick={() => {handlePageChange('Resume')}}
+      >
         Resume
       </a>
     </nav>
