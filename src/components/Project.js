@@ -1,5 +1,5 @@
 
-function Project({ title, image, link, description }) {
+function Project({ title, imageSrc, imageAlt, link, description }) {
   const styles = {
     card: {
       width: "18rem",
@@ -9,8 +9,8 @@ function Project({ title, image, link, description }) {
   };
   return (
     <div className="card" style={styles.card}>
-        <img src = {image}
-        className="card-img-top" alt="pets"/>
+        <img src = {imageSrc}
+        className="card-img-top" alt={imageAlt}/>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>

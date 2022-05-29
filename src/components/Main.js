@@ -4,8 +4,10 @@ import Portfolio from './pages/PortfolioContainer';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume'
 import NavBar from './NavBar';
+import Footer from './Footer';
+import '../styles/Main.css'
+// Main is the 'smart' component that determines which pages to render
 
-// 'smart' component that determines which pages to render
 
 function Main() {
 // declare a state variable for the current page
@@ -31,10 +33,12 @@ const [currentPage, setCurrentPage] = useState('About Me');
     const switchPage = (page) => setCurrentPage(page);
 
     return ( 
-        <div>
+        <div className='main'>
           
             <NavBar currentPage={currentPage} handlePageChange={switchPage}/>
            {renderPage()}
+           <Footer />
+
         </div>
      );
 }
