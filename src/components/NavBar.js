@@ -1,6 +1,6 @@
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    <nav className="nav nav-pills flex-column flex-sm-row">
+    <nav className="nav nav-pills sticky-top flex-column flex-sm-row">
       <a
         className={
           currentPage === "About Me"

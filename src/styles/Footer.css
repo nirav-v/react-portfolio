@@ -1,5 +1,10 @@
 .footer {
-  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.footer img {
+  width: 5rem;
 }
 
 .footer ul {

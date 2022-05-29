@@ -1,15 +1,21 @@
 import "../styles/Footer.css";
+import githubLogoImage from "../images/github-logo.png";
+import linkedinLogoImage from "../images/linkedin-logo.png"
 
 function Footer() {
   return (
     <footer className="footer">
       <ul>
-        <li>
-          <a href="https://github.com/nirav-v">Github</a>
+        <li >
+          <a href="https://github.com/nirav-v">
+        Github <br/>
+            <img className="github-img" src={githubLogoImage} alt="github logo" />
+          </a>
         </li>
-        <li>
+        <li >
           <a href="https://www.linkedin.com/in/nirav-venkatesan-b6a903220/">
-            Linkedin
+            Linkedin <br/>
+            <img src={linkedinLogoImage} />
           </a>
         </li>
       </ul>

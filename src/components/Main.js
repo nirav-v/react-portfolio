@@ -29,7 +29,7 @@ const [currentPage, setCurrentPage] = useState('About Me');
     }
   };
 
-  // have a function that switches the current page state variable based on the page name it is passed
+  // switch the current page state variable based on the page name it is passed
     const switchPage = (page) => setCurrentPage(page);
 
     return ( 
