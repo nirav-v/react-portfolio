@@ -2,7 +2,7 @@
 import Project from "../Project";
 import adoptOwnerImage from '../../images/adopt-an-owner.png'
 import golfapediaImage from '../../images/golfapedia.png'
-
+import secureRandoImage from '../../images/secure-rando.png'
 
 const projects = {
     adoptOwner: {
@@ -33,7 +33,7 @@ function Portfolio() {
     <Project title={projects.golfapedia.title} imageSrc={golfapediaImage} description={projects.golfapedia.description} link={projects.golfapedia.github}/>
 
     {/* Password Generator */}
-    <Project title={projects.adoptOwner.title} imageSrc={adoptOwnerImage} description={projects.adoptOwner.description} link={projects.adoptOwner.github}/>
+    <Project title={projects.secureRando.title} imageSrc={secureRandoImage} description={projects.secureRando.description} link={projects.secureRando.github}/>
     </div>
 
 
