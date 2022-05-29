@@ -3,7 +3,6 @@ function Contact() {
       <div>
   <p>Contact</p>
       </div>
-
   );
 }
 
