@@ -7,7 +7,7 @@ function Project({title, link, description}) {
      }
     }
   return (
-    <div>
+    
       <div className="card" style={styles.card}>
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -20,7 +20,7 @@ function Project({title, link, description}) {
           </a>
         </div>
       </div>
-    </div>
+   
   );
 }
 

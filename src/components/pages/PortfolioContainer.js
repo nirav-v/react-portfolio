@@ -1,4 +1,4 @@
-import NavBar from "../NavBar";
+import Header from "../Header";
 import Project from "../Project";
 
 const projects = {
@@ -10,7 +10,7 @@ const projects = {
 function Portfolio() {
     return ( 
     <div>
-    <NavBar />
+    <Header />
     <Project title={projects.adoptOwner.title} />
     </div>
     );
