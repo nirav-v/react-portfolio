@@ -3,8 +3,8 @@ function Project({ title, imageSrc, imageAlt, link, description }) {
   const styles = {
     card: {
       width: "18rem",
-      padding: 15,
-      marginTop: 20,
+      padding: 20,
+      marginTop: 60,
     },
   };
   return (
