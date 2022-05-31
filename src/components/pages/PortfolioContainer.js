@@ -3,6 +3,7 @@ import adoptOwnerImage from "../../images/adopt-an-owner.png";
 import golfapediaImage from "../../images/golfapedia.png";
 import secureRandoImage from "../../images/secure-rando.png";
 
+
 const projects = {
   adoptOwner: {
     title: "Adopt-an-Owner",

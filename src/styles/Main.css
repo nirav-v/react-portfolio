@@ -1,3 +1,10 @@
+:root {
+  --background-color: #28153d;
+  --light-text: rgb(231, 240, 238);
+}
+
 .main {
   font-family: "Times New Roman", Times, serif;
+  background-color: var(--background-color);
+  color: var(--light-text);
 }

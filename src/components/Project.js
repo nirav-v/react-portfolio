@@ -5,6 +5,7 @@ function Project({ title, imageSrc, imageAlt, link, description }) {
       width: "18rem",
       padding: 20,
       marginTop: 60,
+      color: "black"
     },
   };
   return (
