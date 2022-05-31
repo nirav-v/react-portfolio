@@ -15,7 +15,7 @@ function Footer() {
         <li >
           <a href="https://www.linkedin.com/in/nirav-venkatesan-b6a903220/">
             Linkedin <br/>
-            <img src={linkedinLogoImage} />
+            <img src={linkedinLogoImage} alt="linkedin logo"/>
           </a>
         </li>
       </ul>
