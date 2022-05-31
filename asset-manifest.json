@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.d3b1ce2a.css",
+    "main.js": "/react-portfolio/static/js/main.43b83904.js",
+    "static/media/golfapedia.png": "/react-portfolio/static/media/golfapedia.624f4b103f414088c11b.png",
+    "static/media/adopt-an-owner.png": "/react-portfolio/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
+    "static/media/(4_17_22) NiravVenkatesan_Resume .pdf": "/react-portfolio/static/media/(4_17_22) NiravVenkatesan_Resume .882386d77f4d7ae83b4c.pdf",
+    "static/media/secure-rando.png": "/react-portfolio/static/media/secure-rando.f8d20d91d952bdc9406c.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.d3b1ce2a.css.map": "/react-portfolio/static/css/main.d3b1ce2a.css.map",
+    "main.43b83904.js.map": "/react-portfolio/static/js/main.43b83904.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b1ce2a.css",
+    "static/js/main.43b83904.js"
+  ]
+}
