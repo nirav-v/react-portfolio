@@ -15,7 +15,7 @@ function Project({ title, imageSrc, imageAlt, link, description }) {
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>
         <a href={link} className="btn btn-success">
-          Github
+          Github Repository
         </a>
       </div>
     </div>
