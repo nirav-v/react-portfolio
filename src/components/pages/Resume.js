@@ -6,8 +6,7 @@ function Resume() {
   return (
     <div className="resume-page container">
       <h2 className="resume-link">
-        {" "}
-        <a href={niravResume}>see my resume here</a>{" "}
+        <a href={niravResume} target={"_blank"} rel={"noreferrer"}>See a pdf of my resume here</a>
       </h2>
       <h3>Front-end Skills</h3>
       <ul>
