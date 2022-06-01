@@ -34,8 +34,9 @@ function Main() {
   return (
     <div className="main">
       <header>
+         <h1>{"Nirav Venkatesan"}</h1>
         <NavBar currentPage={currentPage} handlePageChange={switchPage} />
-        <h1>{"Nirav Venkatesan"}</h1>
+       
       </header>
       {renderPage()}
       <Footer />
