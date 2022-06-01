@@ -8,7 +8,7 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
       marginTop: 60,
       color: "black",
       fontFamily: 'Times New Roman, serif',
-      backgroundColor: 'teal',
+      backgroundColor: '#c6e7f5'
       
     }
   };
@@ -17,9 +17,9 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
         <img src = {imageSrc}
         className="card-img-top" alt={imageAlt}/>
       <div className="card-body">
-        <a className="project-link" href={deployedLink}><h5 className="card-title">{title}</h5></a>
+        <a className="project-link" href={deployedLink}  target={"_blank"} rel={"noreferrer"}><h5 className="card-title">{title}</h5></a>
         <p className="card-text">{description}</p>
-        <a className='github-link' href={github} >
+        <a className='github-link' href={github}  target={"_blank"} rel={"noreferrer"} >
           See Github Repository
         </a>
       </div>

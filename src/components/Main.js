@@ -34,9 +34,9 @@ const [currentPage, setCurrentPage] = useState('About Me');
 
     return ( 
         <div className='main'>
-          <header>
+         
              <NavBar currentPage={currentPage} handlePageChange={switchPage}/>
-          </header>
+        
            {renderPage()}
            <Footer />
         </div>
