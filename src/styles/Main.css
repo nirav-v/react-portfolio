@@ -3,6 +3,11 @@
   --light-text: rgb(231, 240, 238);
 }
 
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+
 .main {
   font-family: "Times New Roman", Times, serif;
   background-color: var(--background-color);
