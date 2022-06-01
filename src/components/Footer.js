@@ -8,13 +8,13 @@ function Footer() {
       <ul>
         <li >
           <a href="https://github.com/nirav-v">
-        Github <br/>
+   
             <img className="github-img" src={githubLogoImage} alt="github logo" />
           </a>
         </li>
         <li >
           <a href="https://www.linkedin.com/in/nirav-venkatesan-b6a903220/">
-            Linkedin <br/>
+        
             <img src={linkedinLogoImage} alt="linkedin logo"/>
           </a>
         </li>

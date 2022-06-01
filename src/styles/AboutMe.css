@@ -1,0 +1,14 @@
+/* google font import */
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+h1 {
+  font-family: "Satisfy", cursive;
+}
+
+.about-me {
+  text-align: center;
+  color: rgb(39, 20, 20);
+  background-image: url(../images/ocean.jpg);
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

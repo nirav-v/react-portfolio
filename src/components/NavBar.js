@@ -1,3 +1,5 @@
+import '../styles/Nav.css'
+
 function NavBar({ currentPage, handlePageChange }) {
   return (
     <nav className="nav nav-pills sticky-top flex-column flex-sm-row">

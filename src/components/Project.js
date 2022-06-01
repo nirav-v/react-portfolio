@@ -5,8 +5,9 @@ function Project({ title, imageSrc, imageAlt, link, description }) {
       width: "18rem",
       padding: 20,
       marginTop: 60,
-      color: "black"
-    },
+      color: "black",
+      fontFamily: 'Times New Roman, serif'
+    }
   };
   return (
     <div className="card" style={styles.card}>

@@ -1,21 +1,22 @@
 import profilePic from '../../images/profile-pic.jpg'
 
+import '../../styles/AboutMe.css'
+
 const styles = {
-    bio: {
-        backgroundColor: "blue"
-    },
     headshot: {
         borderRadius: 100,
+        opacity: 50
     }
 
 }
 
 function AboutMe() {
   return (
-    <div>
+    <div className='about-me'>
       <h1>About Me</h1>
-      <img src= {profilePic} alt={"profile headshot"} style={styles.headshot}/>
-      <section>
+     
+      <section className='profile'>
+           <img  src= {profilePic} alt={"profile headshot"} style={styles.headshot}/>
         <p className="bio container-fluid" style={styles.bio}>
           I am a full stack web developer residing in San Diego, CA. I am
           fascinated by how the web works, and am passionate about ensuring the
@@ -25,6 +26,7 @@ function AboutMe() {
           projects I showcase in this portfolio.
         </p>
       </section>
+      
     </div>
   );
 }

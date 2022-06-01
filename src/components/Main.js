@@ -39,7 +39,6 @@ const [currentPage, setCurrentPage] = useState('About Me');
           </header>
            {renderPage()}
            <Footer />
-
         </div>
      );
 }
