@@ -4,3 +4,12 @@
 nav {
   font-family: "Satisfy", cursive;
 }
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(211, 169, 53);
+  transform: scale(1.3);
+}

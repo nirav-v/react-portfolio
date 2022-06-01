@@ -1,12 +1,15 @@
+import '../styles/ProjectCard.css'
 
-function Project({ title, imageSrc, imageAlt, link, description }) {
+function Project({ title, imageSrc, imageAlt, deployedLink, github, description }) {
   const styles = {
     card: {
       width: "18rem",
       padding: 20,
       marginTop: 60,
       color: "black",
-      fontFamily: 'Times New Roman, serif'
+      fontFamily: 'Times New Roman, serif',
+      backgroundColor: 'teal',
+      
     }
   };
   return (
@@ -14,10 +17,10 @@ function Project({ title, imageSrc, imageAlt, link, description }) {
         <img src = {imageSrc}
         className="card-img-top" alt={imageAlt}/>
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+        <a className="project-link" href={deployedLink}><h5 className="card-title">{title}</h5></a>
         <p className="card-text">{description}</p>
-        <a href={link} className="btn btn-success">
-          Github Repository
+        <a className='github-link' href={github} >
+          See Github Repository
         </a>
       </div>
     </div>

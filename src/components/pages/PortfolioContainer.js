@@ -34,7 +34,7 @@ function Portfolio() {
             title={projects.adoptOwner.title}
             imageSrc={adoptOwnerImage}
             description={projects.adoptOwner.description}
-            link={projects.adoptOwner.github}
+            github={projects.adoptOwner.github}
           />
         </div>
         <div className="col">
@@ -43,7 +43,7 @@ function Portfolio() {
             title={projects.golfapedia.title}
             imageSrc={golfapediaImage}
             description={projects.golfapedia.description}
-            link={projects.golfapedia.github}
+            github={projects.golfapedia.github}
           />
         </div>
         <div className="col">
@@ -52,7 +52,7 @@ function Portfolio() {
             title={projects.secureRando.title}
             imageSrc={secureRandoImage}
             description={projects.secureRando.description}
-            link={projects.secureRando.github}
+            github={projects.secureRando.github}
           />
         </div>
         <div className="col">
@@ -60,7 +60,7 @@ function Portfolio() {
             title={projects.secureRando.title}
             imageSrc={secureRandoImage}
             description={projects.secureRando.description}
-            link={projects.secureRando.github}
+            github={projects.secureRando.github}
           />
         </div>
       </div>
