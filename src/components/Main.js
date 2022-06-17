@@ -6,6 +6,7 @@ import Resume from "./pages/Resume";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import "../styles/Main.css";
+
 // Main is the 'smart' component that determines which pages to render
 
 function Main() {
@@ -32,15 +33,16 @@ function Main() {
   const switchPage = (page) => setCurrentPage(page);
 
   return (
+   
     <div className="main">
       <header>
-         <h1>{"Nirav Venkatesan"}</h1>
+        <h1>{"Nirav Venkatesan"}</h1>
         <NavBar currentPage={currentPage} handlePageChange={switchPage} />
-       
       </header>
       {renderPage()}
       <Footer />
     </div>
+ 
   );
 }
 

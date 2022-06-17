@@ -1,6 +1,6 @@
 import '../styles/ProjectCard.css'
 
-function Project({ title, imageSrc, imageAlt, deployedLink, github, description }) {
+function Project({ title, imageSrc, imageAlt, deployedLink, github, description })  {
   const styles = {
     card: {
       width: "18rem",
