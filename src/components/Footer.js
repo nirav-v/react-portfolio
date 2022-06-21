@@ -1,5 +1,5 @@
 import "../styles/Footer.css";
-import githubLogoImage from "../images/github-logo.png";
+import githubLogoImage from "../images/github-repo.jpg";
 import linkedinLogoImage from "../images/linkedin-logo.png"
 
 function Footer() {

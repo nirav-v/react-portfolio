@@ -21,10 +21,10 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
   };
   return (
 
- <Card sx={{ maxWidth: 345 }}>
+ <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
-        height="150"
+        height="200"
         image={imageSrc}
         alt={imageAlt}
       />
@@ -34,12 +34,11 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
         </Typography>
         <Typography variant="body2" color="text.secondary">
       {description}
-          species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
       <CardActions>
         <Button size="small" href={deployedLink} target={"_blank"}>Deployed App</Button>
-        <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo" /></Button>
+        <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo" height='40px' width='5px'/></Button>
       </CardActions>
     </Card>
 

@@ -17,7 +17,7 @@ const projects = {
   },
   adoptOwner: {
     title: "Adopt-an-Owner",
-    description: "Switching the roles of the pet adoption market. Allowing the dogs to find the owners by profile.",
+    description: "Switching the roles of the pet adoption market by allowing adoption agencies to find new owners through their online profile. User data stored and quered using MySQL and sequelize.",
     deployedLink: "https://radiant-wave-08847.herokuapp.com/",
     github: "https://github.com/nirav-v/adopt-an-owner",
   },
