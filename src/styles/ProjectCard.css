@@ -17,6 +17,10 @@
   transform: scale(1.3);
 }
 
+.github-img {
+  width: 5px;
+}
+
 .github-link {
   text-decoration: none;
   color: rgb(42, 58, 107);

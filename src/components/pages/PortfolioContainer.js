@@ -17,7 +17,7 @@ const projects = {
   },
   adoptOwner: {
     title: "Adopt-an-Owner",
-    description: "Switching the roles of the pet adoption market by allowing adoption agencies to find new owners through their online profile. User data stored and quered using MySQL and sequelize.",
+    description: "Switching the roles of the pet adoption market by allowing adoption agencies to find new owners through their online profile. User data stored and quered using MySQL and sequelize",
     deployedLink: "https://radiant-wave-08847.herokuapp.com/",
     github: "https://github.com/nirav-v/adopt-an-owner",
   },
@@ -42,7 +42,7 @@ function Portfolio() {
     <div className="projects container d-flex p-4">
 
 <Grid container spacing={2}>
-  <Grid item xs={12} sm={6}>
+  <Grid item xs={12} sm={6} >
      <Project
             title={projects.toiletTracker.title}
             imageSrc={bowelMvmtImage}
@@ -51,7 +51,7 @@ function Portfolio() {
             github={projects.toiletTracker.github}
           />
   </Grid>
-  <Grid item xs={12} sm={6}>
+  <Grid item xs={12} sm={6} >
      <Project
             title={projects.adoptOwner.title}
             imageSrc={adoptOwnerImage}
@@ -60,7 +60,7 @@ function Portfolio() {
             github={projects.adoptOwner.github}
           />
   </Grid>
-  <Grid item xs={12} sm={6}>
+  <Grid item xs={12} sm={6} >
    <Project
             title={projects.golfapedia.title}
             imageSrc={golfapediaImage}
@@ -69,7 +69,7 @@ function Portfolio() {
             github={projects.golfapedia.github}
           />
   </Grid>
-  <Grid item xs={12} sm={6}>
+  <Grid item xs={12} sm={6} >
           <Project
             title={projects.secureRando.title}
             imageSrc={secureRandoImage}

@@ -21,7 +21,7 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
   };
   return (
 
- <Card sx={{ maxWidth: 500 }}>
+ <Card sx={{ maxWidth: 375 }}>
       <CardMedia
         component="img"
         height="200"
@@ -38,7 +38,7 @@ function Project({ title, imageSrc, imageAlt, deployedLink, github, description 
       </CardContent>
       <CardActions>
         <Button size="small" href={deployedLink} target={"_blank"}>Deployed App</Button>
-        <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo" height='40px' width='5px'/></Button>
+        <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo"/></Button>
       </CardActions>
     </Card>
 

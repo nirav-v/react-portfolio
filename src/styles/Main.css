@@ -5,6 +5,12 @@
   --light-text: rgb(231, 240, 238);
 }
 
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
 h1 {
   text-align: center;
   padding: 15px;
