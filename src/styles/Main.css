@@ -1,8 +1,14 @@
 :root {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   --background-color: #28153d;
   --light-text: rgb(231, 240, 238);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
 }
 
 h1 {
@@ -11,6 +17,8 @@ h1 {
 }
 
 .main {
+  background-image: url(../images/ocean.jpg);
+  background-size: cover;
   height: 100%;
   font-family: "Times New Roman", Times, serif;
   background-color: var(--background-color);

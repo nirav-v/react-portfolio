@@ -7,7 +7,10 @@
 
 .footer img {
   width: 5rem;
-  border-radius: 15px;
+}
+.github-img {
+  width: 5rem;
+  border-radius: 20px;
 }
 
 footer img:hover {

@@ -6,6 +6,7 @@ import Resume from "./pages/Resume";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import "../styles/Main.css";
+import Box from '@mui/material/Box';
 
 // Main is the 'smart' component that determines which pages to render
 
@@ -34,14 +35,20 @@ function Main() {
 
   return (
    
-    <div className="main">
+    <Box className="main"
+         sx={{
+        // width: 300,
+        // height: 100,
+        backgroundSize: 'cover',
+      }}
+    >
       <header>
         <h1>{"Nirav Venkatesan"}</h1>
         <NavBar currentPage={currentPage} handlePageChange={switchPage} />
       </header>
       {renderPage()}
       <Footer />
-    </div>
+    </Box>
  
   );
 }

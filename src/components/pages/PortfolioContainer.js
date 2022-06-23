@@ -3,6 +3,9 @@ import adoptOwnerImage from "../../images/adopt-an-owner.png";
 import golfapediaImage from "../../images/golfapedia.png";
 import secureRandoImage from "../../images/secure-rando.png";
 import bowelMvmtImage from "../../images/bowel-mvmt.jpg";
+import { Grid} from "@mui/material";
+// import { Item} from "@mui/material";
+
 
 
 const projects = {
@@ -14,7 +17,7 @@ const projects = {
   },
   adoptOwner: {
     title: "Adopt-an-Owner",
-    description: "Switching the roles of the pet adoption market. Allowing the dogs to find the owners by profile.",
+    description: "Switching the roles of the pet adoption market by allowing adoption agencies to find new owners through their online profile. User data stored and quered using MySQL and sequelize",
     deployedLink: "https://radiant-wave-08847.herokuapp.com/",
     github: "https://github.com/nirav-v/adopt-an-owner",
   },
@@ -37,39 +40,36 @@ const projects = {
 function Portfolio() {
   return (
     <div className="projects container d-flex p-4">
-      <div className="row">
-        <div className="col">
-          {/* Toilet-Tracker */}
-          <Project
+
+<Grid container spacing={2}>
+  <Grid item xs={12} sm={6} >
+     <Project
             title={projects.toiletTracker.title}
             imageSrc={bowelMvmtImage}
             description={projects.toiletTracker.description}
             deployedLink={projects.toiletTracker.deployedLink}
             github={projects.toiletTracker.github}
           />
-        </div>
-        <div className="col">
-          {/* Adopt-an-Owner */}
-          <Project
+  </Grid>
+  <Grid item xs={12} sm={6} >
+     <Project
             title={projects.adoptOwner.title}
             imageSrc={adoptOwnerImage}
             description={projects.adoptOwner.description}
             deployedLink={projects.adoptOwner.deployedLink}
             github={projects.adoptOwner.github}
           />
-        </div>
-        <div className="col">
-          {/* Golfapedia */}
-          <Project
+  </Grid>
+  <Grid item xs={12} sm={6} >
+   <Project
             title={projects.golfapedia.title}
             imageSrc={golfapediaImage}
             description={projects.golfapedia.description}
             deployedLink={projects.golfapedia.deployedLink}
             github={projects.golfapedia.github}
           />
-        </div>
-        <div className="col">
-          {/* Password Generator */}
+  </Grid>
+  <Grid item xs={12} sm={6} >
           <Project
             title={projects.secureRando.title}
             imageSrc={secureRandoImage}
@@ -77,8 +77,10 @@ function Portfolio() {
             deployedLink={projects.secureRando.deployedLink}
             github={projects.secureRando.github}
           />
-        </div>
-      </div>
+  </Grid>
+</Grid>
+
+     
     </div>
   );
 }
