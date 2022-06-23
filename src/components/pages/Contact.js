@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import { List, ListItem } from '@mui/material';
 import { Paper } from "@mui/material";
 import { color, fontSize, textAlign } from "@mui/system";
+import EmailForm from "../contactForm";
 
 const styles = {
 list: {
@@ -64,73 +65,9 @@ function Contact() {
   Or send a message with the form below
 </Typography>
     </Grid>
-<form>
-              <Grid container spacing={2}>
-                <Grid xs={12} item>
-                  <Typography
-                    gutterBottom
-                    variant="body2"
-                    component="p"
-                    color="textSecondary"
-                  >
-                    Username
-                  </Typography>
-                  <TextField
-                    placeholder="Your name"
-                    
-                    required
-                    autoFocus
-                    name="Name"
-                  />
-                </Grid>
-                <Grid xs={12} item>
-                  <Typography
-                    gutterBottom
-                    variant="body2"
-                    component="p"
-                    color="textSecondary"
-                  >
-                    Email
-                  </Typography>
-                  <TextField
-                    placeholder="You Email Address"
-                    
-                    required
-                    type="email"
-                    name="email"
-              
-                  />
-                </Grid>
-                <Grid xs={12} item>
-                  <Typography
-                    gutterBottom
-                    variant="body2"
-                    component="p"
-                    color="textSecondary"
-                  >
-                    Message
-                  </Typography>
-                  <TextField
-                    placeholder="Write a message"
-                    fullWidth
-                    required
-                    type="message"
-                    name="message"
-              
-                  />
-                </Grid>
-                <Grid xs={12} item>
-                  <Button
-                    size="small"
-                    variant="contained"
-                    color="primary"
-                    type="submit"
-                  >
-                    Submit
-                  </Button>
-                </Grid>
-              </Grid>
-            </form> 
+
+<EmailForm/>
+
     </div>
   );
 }
