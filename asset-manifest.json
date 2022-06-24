@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.6e342723.css",
-    "main.js": "/react-portfolio/static/js/main.f3298cd4.js",
+    "main.css": "/react-portfolio/static/css/main.1056d7a6.css",
+    "main.js": "/react-portfolio/static/js/main.a5789188.js",
     "static/media/golfapedia.png": "/react-portfolio/static/media/golfapedia.624f4b103f414088c11b.png",
     "static/media/adopt-an-owner.png": "/react-portfolio/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
+    "static/media/bowel-mvmt.jpg": "/react-portfolio/static/media/bowel-mvmt.0d70224c2a4aec752757.jpg",
     "static/media/(4_17_22) NiravVenkatesan_Resume .pdf": "/react-portfolio/static/media/(4_17_22) NiravVenkatesan_Resume .882386d77f4d7ae83b4c.pdf",
     "static/media/secure-rando.png": "/react-portfolio/static/media/secure-rando.f8d20d91d952bdc9406c.png",
+    "static/media/github-repo.jpg": "/react-portfolio/static/media/github-repo.63a78ed4baa43c498f4b.jpg",
     "static/media/ocean.jpg": "/react-portfolio/static/media/ocean.7cfffe3fad1de4fcada6.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.6e342723.css.map": "/react-portfolio/static/css/main.6e342723.css.map",
-    "main.f3298cd4.js.map": "/react-portfolio/static/js/main.f3298cd4.js.map"
+    "main.1056d7a6.css.map": "/react-portfolio/static/css/main.1056d7a6.css.map",
+    "main.a5789188.js.map": "/react-portfolio/static/js/main.a5789188.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e342723.css",
-    "static/js/main.f3298cd4.js"
+    "static/css/main.1056d7a6.css",
+    "static/js/main.a5789188.js"
   ]
 }
