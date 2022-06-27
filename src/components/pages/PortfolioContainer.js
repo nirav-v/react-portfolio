@@ -10,9 +10,9 @@ import { Grid} from "@mui/material";
 
 const projects = {
   toiletTracker: {
-    title: "Toilet-Tracker",
+    title: "The-Bowel-Mvmt",
     description: "Crowdsourcing the most transparent and up to date public restroom information. MERN stack application built with React, Apollo server, GraphQL, and MongoDB",
-    deployedLink: "https://ancient-refuge-47910.herokuapp.com/",
+    deployedLink: "https://the-bowel-mvmt.herokuapp.com/",
     github: "https://github.com/nirav-v/the-bowel-mvmt",
   },
   adoptOwner: {
