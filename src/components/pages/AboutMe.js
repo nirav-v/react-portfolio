@@ -1,12 +1,13 @@
-import profilePic from '../../images/profile-pic.jpg'
+import profilePic from '../../images/natureprofile.jpg'
 import { Container } from '@mui/system';
 
 import '../../styles/AboutMe.css'
 
 const styles = {
     headshot: {
-        borderRadius: 100,
-        opacity: 50
+        borderRadius: 270,
+        opacity: 50,
+        height: 500
     }
 
 }
