@@ -33,7 +33,7 @@ const projects = {
     description:
       "generate a random password based on the criteria the user gets prompted to select",
       deployedLink: "https://nirav-v.github.io/secure-rando/",
-    github: "https://nirav-v.github.io/secure-rando/",
+    github: "https://github.com/nirav-v/secure-rando",
   },
 };
 
