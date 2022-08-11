@@ -3,6 +3,7 @@ import adoptOwnerImage from "../../images/adopt-an-owner.png";
 import golfapediaImage from "../../images/golfapedia.png";
 import secureRandoImage from "../../images/secure-rando.png";
 import bowelMvmtImage from "../../images/bowel-mvmt.jpg";
+import javaNewsImage from "../../images/javaNews.png"
 import { Grid} from "@mui/material";
 // import { Item} from "@mui/material";
 
@@ -35,6 +36,12 @@ const projects = {
       deployedLink: "https://nirav-v.github.io/secure-rando/",
     github: "https://github.com/nirav-v/secure-rando",
   },
+  javaNews: {
+    title: "Fake-News-Java-API",
+    description: "Social media based news application that allows users to post links to news articles, comment on posts, and upvote posts.",
+    deployedLink: "https://java-fake-news-api.herokuapp.com/",
+    github: "https://github.com/nirav-v/fake-news-java-api"
+  }
 };
 
 function Portfolio() {
@@ -76,6 +83,15 @@ function Portfolio() {
             description={projects.secureRando.description}
             deployedLink={projects.secureRando.deployedLink}
             github={projects.secureRando.github}
+          />
+  </Grid>
+  <Grid item xs={12} sm={6} >
+          <Project
+            title={projects.javaNews.title}
+            imageSrc={javaNewsImage}
+            description={projects.javaNews.description}
+            deployedLink={projects.javaNews.deployedLink}
+            github={projects.javaNews.github}
           />
   </Grid>
 </Grid>
