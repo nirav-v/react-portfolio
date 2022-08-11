@@ -1,6 +1,6 @@
 import "../../styles/Resume.css";
 
-import niravResume from "../../(4_17_22) NiravVenkatesan_Resume .pdf";
+import niravResume from "../../NiravVenkatesan_Resume.pdf";
 
 function Resume() {
   return (
@@ -18,9 +18,11 @@ function Resume() {
     
       <ul>
           <h3>Back-end Skills</h3>
+          <li>Python, Flask</li>
+          <li>Java, Spring</li>
         <li>Node</li>
         <li>Express</li>
-        <li>MySQL, Sequelize</li>
+        <li>MySQL, Sequelize, SQLAlchemy</li>
         <li>MongoDB, Mongoose</li>
         <li>GraphQl, Apollo Server</li>
       </ul>
