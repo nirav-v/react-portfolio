@@ -4,6 +4,7 @@ import golfapediaImage from "../../images/golfapedia.png";
 import secureRandoImage from "../../images/secure-rando.png";
 import bowelMvmtImage from "../../images/bowel-mvmt.jpg";
 import javaNewsImage from "../../images/javaNews.png"
+import netflixReviewsImage from "../../images/netflix-reviews.png"
 import { Grid} from "@mui/material";
 // import { Item} from "@mui/material";
 
@@ -11,10 +12,10 @@ import { Grid} from "@mui/material";
 
 const projects = {
   toiletTracker: {
-    title: "the-Bowel-Mvmt",
-    description: "Crowdsourcing the most transparent and up to date public restroom information. MERN stack application built with React, Apollo server, GraphQL, and MongoDB",
-    deployedLink: "https://the-bowel-mvmt.herokuapp.com/",
-    github: "https://github.com/nirav-v/the-bowel-mvmt",
+    title: "Restroom-Router",
+    description: "Crowdsourcing the most transparent and up to date public restroom information. MERN stack application built with React, Apollo server, GraphQL, and MongoDB. MapBox API used for displaying restrooms on map.",
+    deployedLink: "https://restroom--router.herokuapp.com/",
+    github: "https://github.com/nirav-v/restroom-router",
   },
   adoptOwner: {
     title: "Adopt-an-Owner",
@@ -29,19 +30,26 @@ const projects = {
       deployedLink: "https://nirav-v.github.io/golfapedia/",
     github: "https://github.com/nirav-v/golfapedia",
   },
-  secureRando: {
-    title: "Secure Rando",
-    description:
-      "generate a random password based on the criteria the user gets prompted to select",
-      deployedLink: "https://nirav-v.github.io/secure-rando/",
-    github: "https://github.com/nirav-v/secure-rando",
-  },
   javaNews: {
-    title: "Fake-News-Java-API",
-    description: "Social media based news application that allows users to post links to news articles, comment on posts, and upvote posts.",
+    title: "Fake News Java API",
+    description: "Social media based news application that allows users to post links to news articles, comment on posts, and upvote posts. Server created using Java with Spring Framework",
     deployedLink: "https://java-fake-news-api.herokuapp.com/",
     github: "https://github.com/nirav-v/fake-news-java-api"
+  },
+  netflixReviews:{
+    title: "Netflix Review Board",
+    description: "Pulling from a database of roughly 9000 Netflix movies and shows, this site allows a user to leave their public review for any of them. Backend built with Python and Flask Server. MySQL database with SqlAlchemy ORM. Frontend built with HTML, CSS, JavaScript",
+    deployedLink: "https://netflix-public-review-board.herokuapp.com/",
+    github: "https://github.com/nirav-v/netflix-show-reviews"
+  },
+    secureRando: {
+    title: "Secure Rando",
+    description:
+      "Generate a random password based on the criteria the user gets prompted to select. HTML, CSS, and JavaScript",
+      deployedLink: "https://nirav-v.github.io/secure-rando/",
+    github: "https://github.com/nirav-v/secure-rando",
   }
+
 };
 
 function Portfolio() {
@@ -92,6 +100,15 @@ function Portfolio() {
             description={projects.javaNews.description}
             deployedLink={projects.javaNews.deployedLink}
             github={projects.javaNews.github}
+          />
+  </Grid>
+  <Grid item xs={12} sm={6} >
+          <Project
+            title={projects.netflixReviews.title}
+            imageSrc={netflixReviewsImage}
+            description={projects.netflixReviews.description}
+            deployedLink={projects.netflixReviews.deployedLink}
+            github={projects.netflixReviews.github}
           />
   </Grid>
 </Grid>
