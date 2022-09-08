@@ -66,6 +66,15 @@ function Portfolio() {
             github={projects.toiletTracker.github}
           />
   </Grid>
+   <Grid item xs={12} sm={6} >
+          <Project
+            title={projects.netflixReviews.title}
+            imageSrc={netflixReviewsImage}
+            description={projects.netflixReviews.description}
+            deployedLink={projects.netflixReviews.deployedLink}
+            github={projects.netflixReviews.github}
+          />
+  </Grid>
   <Grid item xs={12} sm={6} >
      <Project
             title={projects.adoptOwner.title}
@@ -102,15 +111,7 @@ function Portfolio() {
             github={projects.javaNews.github}
           />
   </Grid>
-  <Grid item xs={12} sm={6} >
-          <Project
-            title={projects.netflixReviews.title}
-            imageSrc={netflixReviewsImage}
-            description={projects.netflixReviews.description}
-            deployedLink={projects.netflixReviews.deployedLink}
-            github={projects.netflixReviews.github}
-          />
-  </Grid>
+ 
 </Grid>
 
      
