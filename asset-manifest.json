@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/vibe_central/static/css/main.166beec8.css",
-    "main.js": "/vibe_central/static/js/main.76f05ff8.js",
-    "static/media/golfapedia.png": "/vibe_central/static/media/golfapedia.624f4b103f414088c11b.png",
-    "static/media/natureprofile.jpg": "/vibe_central/static/media/natureprofile.e8348d50407c36442d1d.jpg",
-    "static/media/adopt-an-owner.png": "/vibe_central/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
-    "static/media/bowel-mvmt.jpg": "/vibe_central/static/media/bowel-mvmt.0d70224c2a4aec752757.jpg",
-    "static/media/NiravVenkatesan_Resume.pdf": "/vibe_central/static/media/NiravVenkatesan_Resume.00cfd97a5aec43ad5fea.pdf",
-    "static/media/netflix-reviews.png": "/vibe_central/static/media/netflix-reviews.9519abe67aeee72925e1.png",
-    "static/media/javaNews.png": "/vibe_central/static/media/javaNews.071f30264bcec8936c56.png",
-    "static/media/secure-rando.png": "/vibe_central/static/media/secure-rando.f8d20d91d952bdc9406c.png",
-    "static/media/github-repo.jpg": "/vibe_central/static/media/github-repo.63a78ed4baa43c498f4b.jpg",
-    "static/media/ocean.jpg": "/vibe_central/static/media/ocean.7cfffe3fad1de4fcada6.jpg",
-    "index.html": "/vibe_central/index.html",
-    "main.166beec8.css.map": "/vibe_central/static/css/main.166beec8.css.map",
-    "main.76f05ff8.js.map": "/vibe_central/static/js/main.76f05ff8.js.map"
+    "main.css": "/portfolio/static/css/main.4cbea016.css",
+    "main.js": "/portfolio/static/js/main.c2271e7b.js",
+    "static/media/golfapedia.png": "/portfolio/static/media/golfapedia.624f4b103f414088c11b.png",
+    "static/media/natureprofile.jpg": "/portfolio/static/media/natureprofile.e8348d50407c36442d1d.jpg",
+    "static/media/adopt-an-owner.png": "/portfolio/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
+    "static/media/bowel-mvmt.jpg": "/portfolio/static/media/bowel-mvmt.0d70224c2a4aec752757.jpg",
+    "static/media/NiravVenkatesan_Resume.pdf": "/portfolio/static/media/NiravVenkatesan_Resume.00cfd97a5aec43ad5fea.pdf",
+    "static/media/netflix-reviews.png": "/portfolio/static/media/netflix-reviews.9519abe67aeee72925e1.png",
+    "static/media/javaNews.png": "/portfolio/static/media/javaNews.071f30264bcec8936c56.png",
+    "static/media/secure-rando.png": "/portfolio/static/media/secure-rando.f8d20d91d952bdc9406c.png",
+    "static/media/github-repo.jpg": "/portfolio/static/media/github-repo.63a78ed4baa43c498f4b.jpg",
+    "static/media/ocean.jpg": "/portfolio/static/media/ocean.7cfffe3fad1de4fcada6.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.4cbea016.css.map": "/portfolio/static/css/main.4cbea016.css.map",
+    "main.c2271e7b.js.map": "/portfolio/static/js/main.c2271e7b.js.map"
   },
   "entrypoints": [
-    "static/css/main.166beec8.css",
-    "static/js/main.76f05ff8.js"
+    "static/css/main.4cbea016.css",
+    "static/js/main.c2271e7b.js"
   ]
 }
