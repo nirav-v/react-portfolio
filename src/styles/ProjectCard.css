@@ -1,47 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-.card{
-height: 200px;
-margin: 35px;
-background-color: #d9eef9;
+.card {
+  height: 200px;
+  margin: 35px;
+  background-color: #d9eef9;
 }
 
-.card:hover .projectImage{
+.card:hover .projectImage {
   opacity: 0.2;
 }
 
 .card:hover .description {
   opacity: 1;
 }
-
+/* 
 .description {
   color: black;
-  /* font-weight: bold; */
   opacity: 0;
   position: absolute;
   justify-content: center;
   align-items: center;
-  /* top: 0; 
-  left: 0;
-   right: 0; */
   bottom: 0;
-}
+} */
 
-.projectImage{
+.projectImage {
   height: 200px;
   background-position: cover;
 }
 
-.title{
-    text-align: center;
-
-  text-decoration: none;
-  font-family: 'Anton';
+.title {
+  text-align: center;
+  /* text-decoration: none; */
+  font-family: "Anton";
   color: black;
   font-size: 20px;
 }
 
-.title a:hover{
+.title a:hover {
   text-decoration: none;
 }
 
@@ -50,10 +45,8 @@ background-color: #d9eef9;
   transform: scale(1.3);
 }
 
-
 .github-img {
   height: 50px;
-  
 }
 /* 
 .github-link {
@@ -65,10 +58,9 @@ background-color: #d9eef9;
   font-weight: bolder;
 } */
 
-.buttons{
+.buttons {
   text-align: center;
   /* padding-left: 30px;*/
-  padding-right: 30px; 
-background-color: aliceblue;
+  padding-right: 30px;
+  background-color: aliceblue;
 }
-

@@ -18,54 +18,54 @@ function Project({
 }) {
   return (
         // MUI media style card
-    //  <Card sx={{ maxWidth: 375 }}>
-    //       <CardMedia
-    //         component="img"
-    //         height="200"
-    //         image={imageSrc}
-    //         alt={imageAlt}
-    //       />
-    //       <CardContent>
-    //         <Typography gutterBottom variant="h5" component="div">
-    //          {title}
-    //         </Typography>
-    //         <Typography className='description' variant="body2" color="text.secondary">
-    //       {description}
-    //         </Typography>
-    //       </CardContent>
-    //       <CardActions>
-    //         <Button size="small" href={deployedLink} target={"_blank"}>Deployed App</Button>
-    //         <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo"/></Button>
-    //       </CardActions>
-    //     </Card>
+     <Card sx={{ maxWidth: 375 }}>
+          <CardMedia
+            component="img"
+            height="200"
+            image={imageSrc}
+            alt={imageAlt}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+             {title}
+            </Typography>
+            <Typography className='description' variant="body2" color="text.secondary">
+          {description}
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button size="small" href={deployedLink} target={"_blank"}>Deployed App</Button>
+            <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo"/></Button>
+          </CardActions>
+        </Card>
 
-    <div
-      className="card"
-      style={{
-        // backgroundImage: `url(${imageSrc})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-      }}
-    >
+    // <div
+    //   className="card"
+    //   style={{
+    //     // backgroundImage: `url(${imageSrc})`,
+    //     backgroundSize: "cover",
+    //     backgroundPosition: "center",
+    //     backgroundRepeat: "no-repeat",
+    //   }}
+    // >
     
-        <h2 className="title" target={"_blank"}  href={deployedLink}>  {title} </h2>
+    //     <h2 className="title" target={"_blank"}  href={deployedLink}>  {title} </h2>
        
 
-      <img className="projectImage" src={imageSrc} alt={imageAlt} />
+    //   <img className="projectImage" src={imageSrc} alt={imageAlt} />
 
-      <p className="description" variant="body2" color="text.secondary">
-        {description}
-      </p>
-      <div className="buttons">
-        <Button size="small" href={deployedLink} target={"_blank"}>
-          Deployed App
-        </Button>
-        <Button size="small" href={github} target={"_blank"}>
-          Github
-        </Button>
-      </div>
-    </div>
+    //   <p className="description" variant="body2" color="text.secondary">
+    //     {description}
+    //   </p>
+    //   <div className="buttons">
+    //     <Button size="small" href={deployedLink} target={"_blank"}>
+    //       Deployed App
+    //     </Button>
+    //     <Button size="small" href={github} target={"_blank"}>
+    //       Github
+    //     </Button>
+    //   </div>
+    // </div>
   );
 }
 
