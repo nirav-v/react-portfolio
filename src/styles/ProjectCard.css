@@ -1,17 +1,25 @@
-/* .card {
-  width: "18rem";
-  padding: 20px;
-  margin-top: 60px;
-  color: "black";
-  font-family: "Times New Roman, serif";
-  background-color: "teal";
-} */
+
+
+.card{
+height: 200px;
+margin: 35px;
+}
+
+.card:hover .projectImage{
+  opacity: 0.2;
+}
+
+.card:hover .description {
+  opacity: 1;
+}
 
 .projectImage{
   height: 200px;
+  background-position: cover;
 }
 
 .title{
+  font-weight: bolder;
   color: black;
   font-size: 20px;
   text-align: center;
@@ -45,20 +53,22 @@
 
 .description {
   color: black;
+  font-weight: bold;
   opacity: 0;
   position: absolute;
   justify-content: center;
   align-items: center;
+  /* top: 0; 
+  left: 0;
+   right: 0; */
+    bottom: 0;
 }
+
 
 .buttons{
-  padding: 12px;
+  text-align: center;
+  /* padding-left: 30px;*/
+  padding-right: 30px; 
+background-color: aliceblue;
 }
 
-.card:hover {
-  opacity: .7;
-}
-
-.card:hover .description{
-  opacity: 1;
-}
