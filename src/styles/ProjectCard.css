@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .card{
 height: 200px;
 margin: 35px;
+background-color: #d9eef9;
 }
 
 .card:hover .projectImage{
@@ -13,22 +14,35 @@ margin: 35px;
   opacity: 1;
 }
 
+.description {
+  color: black;
+  /* font-weight: bold; */
+  opacity: 0;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  /* top: 0; 
+  left: 0;
+   right: 0; */
+  bottom: 0;
+}
+
 .projectImage{
   height: 200px;
   background-position: cover;
 }
 
 .title{
-  font-weight: bolder;
+    text-align: center;
+
+  text-decoration: none;
+  font-family: 'Anton';
   color: black;
   font-size: 20px;
-  text-align: center;
-
 }
 
-.project-link {
+.title a:hover{
   text-decoration: none;
-  color: rgb(42, 58, 107);
 }
 
 .title:hover {
@@ -41,7 +55,7 @@ margin: 35px;
   height: 50px;
   
 }
-
+/* 
 .github-link {
   text-decoration: none;
   color: rgb(42, 58, 107);
@@ -49,21 +63,7 @@ margin: 35px;
 
 .github-link:hover {
   font-weight: bolder;
-}
-
-.description {
-  color: black;
-  font-weight: bold;
-  opacity: 0;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  /* top: 0; 
-  left: 0;
-   right: 0; */
-    bottom: 0;
-}
-
+} */
 
 .buttons{
   text-align: center;

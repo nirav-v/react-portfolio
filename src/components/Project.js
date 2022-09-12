@@ -48,7 +48,9 @@ function Project({
         backgroundRepeat: "no-repeat",
       }}
     >
-      <h2 className="title">{title}</h2>
+    
+        <h2 className="title" target={"_blank"}  href={deployedLink}>  {title} </h2>
+       
 
       <img className="projectImage" src={imageSrc} alt={imageAlt} />
 
