@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vibe_central/static/css/main.58264a95.css",
-    "main.js": "/vibe_central/static/js/main.745073ce.js",
+    "main.js": "/vibe_central/static/js/main.7c5a8326.js",
     "static/media/golfapedia.png": "/vibe_central/static/media/golfapedia.624f4b103f414088c11b.png",
     "static/media/natureprofile.jpg": "/vibe_central/static/media/natureprofile.e8348d50407c36442d1d.jpg",
     "static/media/adopt-an-owner.png": "/vibe_central/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
@@ -14,10 +14,10 @@
     "static/media/ocean.jpg": "/vibe_central/static/media/ocean.7cfffe3fad1de4fcada6.jpg",
     "index.html": "/vibe_central/index.html",
     "main.58264a95.css.map": "/vibe_central/static/css/main.58264a95.css.map",
-    "main.745073ce.js.map": "/vibe_central/static/js/main.745073ce.js.map"
+    "main.7c5a8326.js.map": "/vibe_central/static/js/main.7c5a8326.js.map"
   },
   "entrypoints": [
     "static/css/main.58264a95.css",
-    "static/js/main.745073ce.js"
+    "static/js/main.7c5a8326.js"
   ]
 }
