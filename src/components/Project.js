@@ -28,7 +28,7 @@ function Project({
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-             <a class='title' href={deployedLink} >{title}</a>
+             <a class='title' href={deployedLink} target={'_blank'} rel="noreferrer">{title}</a>
             </Typography>
             <Typography className='description' variant="body2" color="text.secondary">
           {description}
@@ -36,7 +36,7 @@ function Project({
           </CardContent>
           <CardActions>
             <Button size="small" href={deployedLink} target={"_blank"}>Deployed App</Button>
-            <Button size="small" href={github} target={"_blank"}><img className="github-img" src={githubLogoImage} alt="github logo"/></Button>
+            <Button size="small" href={github} target={"_blank"}><img class="github-img" src={githubLogoImage} alt="github logo"/></Button>
           </CardActions>
         </Card>
 
