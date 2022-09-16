@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
+      	.MuiCardMedia-media{
+      background-position: cover;
+    }
+
 .card {
-  height: 200px;
+  max-width: 350px;
+  height: 300px;
   margin: 35px;
   background-color: #d9eef9;
 }
@@ -13,8 +18,8 @@
 .card:hover .description {
   opacity: 1;
 }
-/* 
-.description {
+
+/* .description {
   color: black;
   opacity: 0;
   position: absolute;
@@ -30,7 +35,7 @@
 
 .title {
   text-align: center;
-  /* text-decoration: none; */
+  text-decoration: none; 
   font-family: "Anton";
   color: black;
   font-size: 20px;
@@ -42,7 +47,8 @@
 
 .title:hover {
   font-weight: bolder;
-  transform: scale(1.3);
+  font-size: 25px;
+  color: #045093;
 }
 
 .github-img {
@@ -62,5 +68,5 @@
   text-align: center;
   /* padding-left: 30px;*/
   padding-right: 30px;
-  background-color: aliceblue;
+  background-color: #045093;
 }

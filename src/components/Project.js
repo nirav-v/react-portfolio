@@ -17,17 +17,18 @@ function Project({
   description,
 }) {
   return (
-        // MUI media style card
+    //    MUI media style card
      <Card sx={{ maxWidth: 375 }}>
           <CardMedia
+          className="cardImage"
             component="img"
-            height="200"
+            height="250"
             image={imageSrc}
             alt={imageAlt}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-             {title}
+             <a class='title' href={deployedLink} >{title}</a>
             </Typography>
             <Typography className='description' variant="body2" color="text.secondary">
           {description}
