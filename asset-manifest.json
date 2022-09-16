@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vibe_central/static/css/main.166beec8.css",
-    "main.js": "/vibe_central/static/js/main.76f05ff8.js",
+    "main.css": "/vibe_central/static/css/main.58264a95.css",
+    "main.js": "/vibe_central/static/js/main.745073ce.js",
     "static/media/golfapedia.png": "/vibe_central/static/media/golfapedia.624f4b103f414088c11b.png",
     "static/media/natureprofile.jpg": "/vibe_central/static/media/natureprofile.e8348d50407c36442d1d.jpg",
     "static/media/adopt-an-owner.png": "/vibe_central/static/media/adopt-an-owner.af6b24fbd921f068a1d8.png",
@@ -13,11 +13,11 @@
     "static/media/github-repo.jpg": "/vibe_central/static/media/github-repo.63a78ed4baa43c498f4b.jpg",
     "static/media/ocean.jpg": "/vibe_central/static/media/ocean.7cfffe3fad1de4fcada6.jpg",
     "index.html": "/vibe_central/index.html",
-    "main.166beec8.css.map": "/vibe_central/static/css/main.166beec8.css.map",
-    "main.76f05ff8.js.map": "/vibe_central/static/js/main.76f05ff8.js.map"
+    "main.58264a95.css.map": "/vibe_central/static/css/main.58264a95.css.map",
+    "main.745073ce.js.map": "/vibe_central/static/js/main.745073ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.166beec8.css",
-    "static/js/main.76f05ff8.js"
+    "static/css/main.58264a95.css",
+    "static/js/main.745073ce.js"
   ]
 }
