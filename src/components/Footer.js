@@ -7,13 +7,13 @@ function Footer() {
     <footer className="footer">
       <ul>
         <li >
-          <a href="https://github.com/nirav-v">
+          <a target="__blank" href="https://github.com/nirav-v">
    
             <img className="github-img" src={githubLogoImage} alt="github logo" />
           </a>
         </li>
         <li >
-          <a href="https://www.linkedin.com/in/nirav-venkatesan-b6a903220/">
+          <a target="__blank" href="https://www.linkedin.com/in/nirav-venkatesan-b6a903220/">
         
             <img src={linkedinLogoImage} alt="linkedin logo"/>
           </a>
