@@ -11,7 +11,7 @@ import { Grid } from "@mui/material";
 
 const projects = {
   toiletTracker: {
-    title: "Restroom-Router",
+    title: "Restroom Router",
     description:
       "Crowdsourcing the most transparent and up to date public restroom information. MERN stack application built with React, Apollo server, GraphQL, and MongoDB. MapBox API used for displaying restrooms on map.",
     deployedLink: "https://restroom--router.herokuapp.com/",
@@ -72,6 +72,15 @@ function Portfolio() {
             description={projects.toiletTracker.description}
             deployedLink={projects.toiletTracker.deployedLink}
             github={projects.toiletTracker.github}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6}>
+          <Project
+            title={projects.dwRugs.title}
+            imageSrc={dwRugsImage}
+            description={projects.dwRugs.description}
+            deployedLink={projects.dwRugs.deployedLink}
+            github={projects.dwRugs.github}
           />
         </Grid>
         <Grid item xs={12} sm={6}>
