@@ -56,7 +56,7 @@ const projects = {
     title: "DW Rugs",
     description:
       "A static website with a gallery page that I developed for my close friend's custom rug making business. I was able to use my front-end development skills to promote a small business and showcase their work.",
-    deployedLink: "https://nirav-v.github.io/dw-rugs/index.html",
+    deployedLink: "https://dwrugs.com/",
     github: "https://github.com/nirav-v/dw-rugs",
   },
 };
